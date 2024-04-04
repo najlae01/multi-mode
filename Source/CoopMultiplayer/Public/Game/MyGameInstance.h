@@ -13,5 +13,6 @@ UCLASS()
 class COOPMULTIPLAYER_API UMyGameInstance : public UGameInstance
 {
 	GENERATED_BODY()
-	
+
+	bool isOver;
 };
