@@ -14,5 +14,8 @@ class COOPMULTIPLAYER_API UMyGameInstance : public UGameInstance
 {
 	GENERATED_BODY()
 
-	bool isOver;
+public:
+	//UFUNCTION(BlueprintCallable)
+	//void HostSession();
+
 };
