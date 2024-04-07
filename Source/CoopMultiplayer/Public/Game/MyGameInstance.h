@@ -15,7 +15,7 @@ class COOPMULTIPLAYER_API UMyGameInstance : public UGameInstance
 	GENERATED_BODY()
 
 public:
-	//UFUNCTION(BlueprintCallable)
-	//void HostSession();
+	UFUNCTION(BlueprintCallable)
+	void HostSession();
 
 };

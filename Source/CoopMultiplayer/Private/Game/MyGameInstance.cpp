@@ -3,3 +3,7 @@
 
 #include "Game/MyGameInstance.h"
 
+void UMyGameInstance::HostSession()
+{
+
+}
