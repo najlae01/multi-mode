@@ -3,7 +3,11 @@
 
 #include "Game/MyGameInstance.h"
 
-void UMyGameInstance::HostSession()
-{
 
+// In our UNWGameIntance.cpp:
+
+bool UMyGameInstance::HostSession(UObject* UserId, FName SessionName, bool bIsLAN, bool bIsPresence, int32 MaxNumPlayers)
+{
+	// Get the Online Subsystem to work with
+	return true;
 }

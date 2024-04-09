@@ -16,6 +16,15 @@ class COOPMULTIPLAYER_API UMyGameInstance : public UGameInstance
 
 public:
 	UFUNCTION(BlueprintCallable)
-	void HostSession();
+		/**
+		*	Function to host a game!
+		*
+		*	@Param		UserID			User that started the request
+		*	@Param		SessionName		Name of the Session
+		*	@Param		bIsLAN			Is this is LAN Game?
+		*	@Param		bIsPresence		"Is the Session to create a presence Session"
+		*	@Param		MaxNumPlayers	        Number of Maximum allowed players on this "Session" (Server)
+		*/
+	bool HostSession(UObject* UserId, FName SessionName, bool bIsLAN, bool bIsPresence, int32 MaxNumPlayers);
 
 };
